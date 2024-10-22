@@ -1,0 +1,54 @@
+/* src/components/Header.css */
+header {
+    padding: 20px;
+    color: white;
+    display: flex; /* Используем flexbox для выравнивания */
+    justify-content: flex-start; /* Выравнивание по левому краю */
+    align-items: center; /* Вертикальное выравнивание */
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+    font-size: 16px;
+    margin-left: auto; /* Отталкиваем навигацию вправо */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+.language-switcher {
+    margin-left: auto; /* Отталкиваем переключатель языков вправо */
+    display: flex;
+    gap: 10px; /* Расстояние между кнопками */
+}
+
+.language-switcher button {
+    padding: 5px 10px; /* Отступы внутри кнопок */
+    border: none;
+    border-radius: 5px; /* Закругление углов */
+    background-color: #007bff; /* Цвет кнопок */
+    color: white;
+    cursor: pointer;
+    font-weight: bold; /* Увеличиваем вес шрифта */
+}
+
+.language-switcher button:hover {
+    background-color: #0056b3; /* Цвет кнопок при наведении */
+}

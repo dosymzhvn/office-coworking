@@ -1,0 +1,17 @@
+/* src/components/Home.css */
+.home {
+    
+    text-align: center;
+    margin: 20px;
+}
+
+.card-container {
+    display: flex; /* Используем flexbox для горизонтального расположения */
+    justify-content: center; /* Центрируем карточки */
+    gap: 20px; /* Отступы между карточками */
+}
+
+h1 {
+    color: aliceblue;
+    margin-bottom: 20px; /* Отступ снизу для заголовка */
+}

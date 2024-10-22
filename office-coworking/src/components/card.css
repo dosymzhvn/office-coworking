@@ -1,0 +1,35 @@
+/* src/components/Card.css */
+.card {
+    background-color: rgba(160, 152, 152, 0.7); /* Темный полупрозрачный фон */
+    border-radius: 10px; /* Закругленные углы */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Более глубокая тень */
+    padding: 20px;
+    width: 200px; /* Ширина карточки */
+    text-align: center;
+    transition: transform 0.3s; /* Плавный эффект при наведении */
+    color: white; /* Цвет текста */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Увеличение при наведении */
+}
+
+.card-button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #b13905; /* Цвет кнопки */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-button:hover {
+    background-color: #e36f15; /* Цвет кнопки при наведении */
+}
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column; /* Изменяем направление на вертикальное */
+        align-items: center; /* Центрируем карточки по горизонтали */
+    }
+}
